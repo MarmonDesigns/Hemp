@@ -96,7 +96,7 @@ if(!function_exists('fre_project_button')) {
 		// current user is a freelancer
 		if( ae_user_role() != FREELANCER ) { 
 		?>
-			<a href="<?php echo et_get_page_link( array('page_type' => 'submit-project', 'post_title' => __("Post a Project", ET_DOMAIN )) ); ?>" class="btn btn-sumary btn-post-project">
+			<a href="<?php echo et_get_page_link( array('page_type' => 'submit-project', 'post_title' => __("Post a Request", ET_DOMAIN )) ); ?>" class="btn btn-sumary btn-post-project">
 				<i class="fa fa-plus-circle"></i><?php _e("Post a Request", ET_DOMAIN); ?>
 			</a>
 		<?php
