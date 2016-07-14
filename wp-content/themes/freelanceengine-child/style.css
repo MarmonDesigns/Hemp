@@ -293,3 +293,25 @@ ul#menu-mainu-menu-1 {
 
 
 .login-form-header-wrapper .dropdown-menu {background:#2a2e31;}
+
+
+div.title-tab-project h2 {
+	font-size: 14px;
+	font-weight:bold;
+}
+.header-sub-wrapper {
+	background:#2a2e31;
+}
+.btn-post-project {
+	background-color:#7CB204;
+	box-shadow: 0 2px 0 #6fa003;
+}
+.slider-selection {
+	background-color:#7CB204;background-color:#2A4E7E;
+}
+b.currency {
+	color:#7CB204;color:#2A4E7E;
+}
+.list-project li {
+	background-color:#f9f9f9;
+}
