@@ -57,42 +57,6 @@
             </div>
             <!--// project budget -->
 
-            <!-- project skills -->
-            <div class="form-group skill-control">
-            	<div class="row">
-                	<div class="col-md-4">
-                		<label for="skill" class="control-label title-plan"><?php _e("Skills", ET_DOMAIN); ?>
-                            <br/>
-                            <span><?php _e("Press Enter to keep adding skills", ET_DOMAIN); ?></span>
-                        </label>
-                	</div>
-                    <div class="col-md-8 col-sm-12">
-
-                        <?php
-                        $switch_skill = ae_get_option('switch_skill');
-                        if(!$switch_skill){
-                            ?>
-                            <input type="text" class="form-control text-field skill" id="skill" placeholder="<?php _e("Skills", ET_DOMAIN); ?>" name=""  autocomplete="off" spellcheck="false" >
-                            <ul class="skills-list" id="skills_list"></ul>
-                            <?php
-                        }else{
-                            ae_tax_dropdown( 'skill' , array(  'attr' => 'data-chosen-width="100%" data-chosen-disable-search="" multiple data-placeholder="'.__(" Skills (max is 5)", ET_DOMAIN).'"',
-                                                'class' => 'sw_skill chosen multi-tax-item tax-item required',
-                                                'hide_empty' => false,
-                                                'hierarchical' => true ,
-                                                'id' => 'skill' ,
-                                                'show_option_all' => false
-                                        )
-                            );
-                        }
-
-                        ?>
-                    </div>
-                </div>
-            </div>
-            <!--// project skills -->
-
-
             <!-- project category -->
             <div class="form-group">
             	<div class="row">
