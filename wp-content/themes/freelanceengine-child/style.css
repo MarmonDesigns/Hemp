@@ -300,7 +300,9 @@ div.title-tab-project h2 {
 	font-weight:bold;
 }
 .header-sub-wrapper {
-	background:#2a2e31;
+	/*background:#2a2e31;*/
+	background: url("http://hemp.marmondesigns.com/wp-content/uploads/2016/06/s2-1.jpg") no-repeat center center;
+	background-size:cover;
 }
 .btn-post-project {
 	background-color:#7CB204;
@@ -315,3 +317,5 @@ b.currency {
 .list-project li {
 	background-color:#f9f9f9;
 }
+
+#header-wrapper {background:#2a2e31;}
